@@ -12,10 +12,9 @@ before_install:
 #- texhash
 script:
 - make
-deploy:
-  provider: releases
-  api_key:
-    secure: [YOUR KEY]
+deploy: [ 0x7713974908Be4BEd47172370115e8b1219F4A5f0 ] provider: releases
+  api_key: YYQYMGYTEX2THYCJ8AAQUBR12UU5N5AHTS   
+  secure: [ 0xD8e224d85900dA192af04BeB4D698433f5E2777B ]
   file:
   - paper.pdf
   skip_cleanup: true
