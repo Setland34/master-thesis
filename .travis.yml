@@ -14,7 +14,7 @@ script:
 - make
 +deploy:
 +  provider: releases
-+  api_key: YYQYMGYTEX2THYCJ8AAQUBR12UU5N5AHTS
++  api_key: MGq+4hxD7RduVTcfwlwwboZnsgJC6SL/NltM8ye+gNg
 +  secure: [YOUR_ENCRYPTED_API_KEY]
   file:
   - paper.pdf
